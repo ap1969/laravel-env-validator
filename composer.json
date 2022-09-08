@@ -1,5 +1,5 @@
 {
-  "name": "melihovv/laravel-env-validator",
+  "name": "ap1969/laravel-env-validator",
   "description": "Laravel Validator for the .env file",
   "license": "MIT",
   "keywords": [
@@ -11,16 +11,16 @@
   "type": "library",
   "authors": [
     {
-      "name": "Alexander Melihov",
-      "email": "amelihovv@ya.ru"
+      "name": "Andrew Peacock (was Alexander Melihov)",
+      "email": "support@notifium.com"
     }
   ],
   "require": {
     "php": ">=7.2",
-    "illuminate/config": "^6.0|^7.0|^8.0",
-    "illuminate/console": "^6.0|^7.0|^8.0",
-    "illuminate/support": "^6.0|^7.0|^8.0",
-    "illuminate/validation": "^6.0|^7.0|^8.0"
+    "illuminate/config": "^6.0|^7.0|^8.0|^9.0",
+    "illuminate/console": "^6.0|^7.0|^8.0|^9.0",
+    "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
+    "illuminate/validation": "^6.0|^7.0|^8.0|^9.0"
   },
   "require-dev": {
     "orchestra/testbench": "^4.0|^5.0|^6.0",
@@ -28,12 +28,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Melihovv\\LaravelEnvValidator\\": "src"
+      "Ap1969\\LaravelEnvValidator\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Melihovv\\LaravelEnvValidator\\Tests\\": "tests/"
+      "Ap1969\\LaravelEnvValidator\\Tests\\": "tests/"
     }
   },
   "scripts": {
@@ -42,7 +42,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Melihovv\\LaravelEnvValidator\\ServiceProvider"
+        "Ap1969\\LaravelEnvValidator\\ServiceProvider"
       ]
     }
   },

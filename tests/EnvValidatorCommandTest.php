@@ -1,10 +1,10 @@
 <?php
 
-namespace Melihovv\LaravelEnvValidator\Tests;
+namespace Ap1969\LaravelEnvValidator\Tests;
 
 use Illuminate\Support\Facades\Config;
-use Melihovv\LaravelEnvValidator\EnvValidationFailed;
-use Melihovv\LaravelEnvValidator\ServiceProvider;
+use Ap1969\LaravelEnvValidator\EnvValidationFailed;
+use Ap1969\LaravelEnvValidator\ServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class EnvValidatorCommandTest extends TestCase

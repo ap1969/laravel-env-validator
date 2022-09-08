@@ -1,6 +1,6 @@
 <?php
 
-namespace Melihovv\LaravelEnvValidator;
+namespace Ap1969\LaravelEnvValidator;
 
 use Exception;
 
