@@ -10,6 +10,8 @@
 Laravel Env Validator is meant to validate your .env file in order to avoid any
 unexpected behaviour for not having properly defined some variable or value.
 
+Cloned from https://github.com/melihovv/laravel-env-validator , which has not bee updated in years. This version updated for PHP8.1 and Laravel v9.x
+
 ### Highlights
 
 - Make sure you don't go live without all required .env variables and without the correct values
